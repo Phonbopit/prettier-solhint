@@ -49,7 +49,6 @@ npm install --save-dev prettier prettier-plugin-solidity
 }
 ```
 
-
 ---
 
 ## Advanced Sample Hardhat Project

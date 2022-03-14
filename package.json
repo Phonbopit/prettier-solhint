@@ -4,7 +4,7 @@
   "description": "Config files for Prettier + Solhint",
   "main": "index.js",
   "scripts": {
-    "test": "npx hardhat test",
+    "test": "TS_NODE_TRANSPILE_ONLY=1 npx hardhat test",
     "prettier:check": "prettier --check . --config .prettierrc",
     "prettier:format": "prettier --write . --config .prettierrc"
   },
